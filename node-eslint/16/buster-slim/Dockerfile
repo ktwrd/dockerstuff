@@ -1,6 +1,7 @@
 FROM node:16-buster-slim
 
-RUN apt-get update &&
-	apt-get install -y git &&
+RUN set -ex \
+    && apt update \
+	&& apt install -y git
 
 CMD [ "node" ]
