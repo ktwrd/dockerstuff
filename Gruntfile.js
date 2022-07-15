@@ -15,6 +15,11 @@ const matrix = [
         ['16', [
             'buster-slim'
         ]]
+    ]],
+    ['sixgrid-publisher', [
+    	['16', [
+    		'buster-slim'
+    	]]
     ]]
 ];
 
